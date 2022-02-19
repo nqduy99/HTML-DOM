@@ -1,11 +1,10 @@
 
+ 
+var btn = document.getElementById('btn') 
 
-boxElement = document.querySelector('.box')
+btn.addEventListener('click', function(e){
+    console.log('Viec 1')
+})
 
-boxElement.classList.add('red')
+console.log(btn)
 
-setInterval(()=> {
-    boxElement.classList.toggle('red')
-}, 1000)
-
-console.log(boxElement.classList)
